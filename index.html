@@ -27,7 +27,7 @@
     <main>
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                  <div> <img src="//placehold.it/200x200" alt=""></div>
                 </div>
             </div>
@@ -35,11 +35,13 @@
     </main>
     <footer>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <div class="btn btn-primary" onclick="slap()"> Slap</div>
-                    <div class="btn btn-primary" onclick="punch()"> Punch</div>
-                    <div class="btn btn-primary" onclick="kick()"> Kick</div>
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <div class="btn btn-primary hidden" id="slap" onclick="slap()"> Slap</div>
+                    <div class="btn btn-primary hidden" id="punch" onclick="punch()"> Punch</div>
+                    <div class="btn btn-primary hidden" id="kick" onclick="kick()"> Kick</div>
+                    <div class="btn btn-primary" id ="restart-game" onclick="startGame()">Start Game</div>
+                    
                 </div>
             </div>
         </div>
