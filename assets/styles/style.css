@@ -2,5 +2,21 @@
     display: none;
 }
 .tall{
-    height: 50rem;
+    height: 200px;
 }
+.round{
+    border-radius: 12rem;
+}
+.bg-image{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/11/WarpTrails2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .small-picture{
+    height:200px;
+    width: 200px;
+    position: absolute;
+    transform: translateY(-400px)
+   translateX(28rem)
+} */

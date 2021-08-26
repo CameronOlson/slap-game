@@ -1,5 +1,8 @@
 let health = 100;
 let strikes = 0;
+let progress = document.getElementById("progress")
+
+
 
 function slap() {
     let slap = 1
@@ -7,6 +10,11 @@ function slap() {
     if (health <= 0){
        stopGame()
     }
+    Swal.fire({
+        imageUrl: 'https://www.vhv.rs/dpng/d/16-162137_pow-png-transparent-png.png',
+        imageHeight: 1500,
+        imageAlt: 'A tall image'
+      })
     // window.alert(currentHealth)
     console.log(currentHealth)
     hits()
