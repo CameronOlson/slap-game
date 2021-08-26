@@ -6,9 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <title>Document</title>
+    <title>Slap Game</title>
 </head>
 <body>
+<header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h1><span>Health: <span id="health">--</span></span></h1>
+        </div>
+        <div class="col">
+            <h1><span>Name: <span id="name">--</span></span></h1>
+        </div>
+        <div class="col">
+            <h1><span>Hits: <span id="hits">--</span></span></h1>
+        </div>
+    </div>
+    </div>
+</header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                 <div> <img src="//placehold.it/200x200" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="btn btn-primary" onclick="slap()"> Slap</div>
+                    <div class="btn btn-primary" onclick="punch()"> Punch</div>
+                    <div class="btn btn-primary" onclick="kick()"> Kick</div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="game.js"></script>
 </body>
