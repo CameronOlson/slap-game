@@ -11,9 +11,13 @@ function slap() {
        stopGame()
     }
     Swal.fire({
-        imageUrl: 'https://www.vhv.rs/dpng/d/16-162137_pow-png-transparent-png.png',
-        imageHeight: 1500,
-        imageAlt: 'A tall image'
+        imageUrl: 'https://lh3.googleusercontent.com/proxy/y1DGJq4rdJ_2hiejE5bZrEtpu1NA77Db-gtuN68BLL_BmxKMad2N3EELeQNfGgijo4MaXgvL1fAjx-dLFNd3i3cGv25ytZy8xFQVRBFdir7jTw',
+        imageHeight: 200,
+        imageAlt: 'A tall image',
+        timer: 300,
+        background:"#000000"
+        
+
       })
     // window.alert(currentHealth)
     console.log(currentHealth)
@@ -26,6 +30,14 @@ function punch() {
     if (health <= 0){
         stopGame()
      }
+     Swal.fire({
+        imageUrl: 'https://us.123rf.com/450wm/3dgenerator/3dgenerator1707/3dgenerator170700460/83380788-bang-illustration-pop-.jpg?ver=6',
+        imageHeight: 200,
+        imageAlt: 'A tall image',
+        timer: 300,
+        background:"#ffffff"
+
+      })
     // window.alert(currentHealth)
     console.log(currentHealth)
     hits()
@@ -37,6 +49,14 @@ function kick() {
     if (health <= 0){
         stopGame()
      }
+     Swal.fire({
+        imageUrl: 'https://www.fivesquid.com/blog/images/357_664x441.jpg',
+        imageHeight: 200,
+        imageAlt: 'A tall image',
+        timer: 300,
+        background:"#ffffff"
+
+      })
     // window.alert(currentHealth)
     console.log(currentHealth)
     hits()
